@@ -3,7 +3,7 @@ import json
 
 misperrors = {'error': 'Error'}
 mispattributes = {'input': ['ip-dst', 'ip-src'], 'output': ['text']}
-moduleinfo = {'version': '0.1', 'author': 'Aurélien Schwab', 'description': 'Module to access GreyNoise.io API.', 'module-type': ['hover']}
+moduleinfo = {'version': '0.1', 'author': 'Aurélien Schwab <aurelien.schwab+dev@gmail.com>', 'description': 'Module to access GreyNoise.io API.', 'module-type': ['hover']}
 moduleconfig = ['user-agent']#TODO take this into account in the code
 
 greynoise_api_url = 'http://api.greynoise.io:8888/v1/query/ip'
